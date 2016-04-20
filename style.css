@@ -7,6 +7,7 @@ html {
    overflow: auto;
 }
 body {
+	font-size: 16px;
 	min-height: 100%;
 	background-image: linear-gradient(to top, rgba(64,58,89,0.478), rgba(64,58,89,0.478)), url('images/background.jpeg');
 	background-position: 0% 0% center;
@@ -102,5 +103,8 @@ div.social-media li img {
 	div.social-media li img {
 		width: 80px;
 		margin-bottom: 10px;
-}
+	}
+	header .nav-links li a {
+		font-size: .75rem;
+	}
 }
