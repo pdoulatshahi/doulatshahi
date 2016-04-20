@@ -4,11 +4,11 @@
 }
 html {
    height: 100%;
-   overflow: auto;
 }
 body {
 	font-size: 16px;
 	min-height: 100%;
+	width: 100%;
 	background-image: linear-gradient(to top, rgba(64,58,89,0.478), rgba(64,58,89,0.478)), url('images/background.jpeg');
 	background-position: 0% 0% center;
 	background-repeat: repeat, repeat;
@@ -21,6 +21,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
+	width: 100%;
 }
 header .nav-links {
 	display: table;
@@ -56,6 +57,7 @@ section.about, section.resume {
 	height: 100%;
 }
 div.about-me {
+	width: 100%;
 	max-width: 1000px;
 	margin: 15vh auto 0;
 	padding: 0 10px;
@@ -63,12 +65,10 @@ div.about-me {
 	z-index: 1;
 }
 div.about-me h1 {
-	display: inline-block;
 	color: ghostwhite;
 	font-family: 'Open Sans';
     position: relative;
     letter-spacing: 0.35rem;
-    left: 0.175rem;
     font-size: 3.125em;
     line-height: 1.175;
     font-weight: 800;
@@ -81,7 +81,6 @@ div.about-me h2 {
     font-family: 'Exo';
     position: relative;
     letter-spacing: 0.05rem;
-    left: 0.025rem;
     font-size: 1.3em;
     line-height: 1.675;
     font-weight: 200;
