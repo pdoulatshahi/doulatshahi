@@ -17,6 +17,11 @@ body {
 	background-color: #FFFFFF;
 	overflow-y: scroll;
 }
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
 header .nav-links {
 	display: table;
 	table-layout: fixed;
@@ -26,13 +31,15 @@ header .nav-links li {
 	display: table-cell;
 	text-align: center;
 	color: ghostwhite;
-	padding: 10px 0;
-	border-bottom: 2px solid #e6e6e6;
+	padding: 12px 0;
 	border-left: 1px dotted #e6e6e6;
 	border-right: 1px dotted #e6e6e6;
 	font-family: 'Open Sans';
 	font-weight: 700;
 	text-transform: uppercase;
+}
+header .nav-links li a {
+	border-bottom: 2px solid #e6e6e6;
 }
 header .nav-links li:first-child {
 	border-left: none;
