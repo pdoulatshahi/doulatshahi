@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var index = $(this).parent("li").index();
 		var el = $("section:eq(" + index + ")");
 		$('html,body').animate({
-		   scrollTop: el.offset().top - 30
+		   scrollTop: el.offset().top - 50
 		}, 1000);
 
 	})

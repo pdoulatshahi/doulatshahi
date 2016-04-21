@@ -62,7 +62,6 @@ header .nav-links li a {
 }
 section.about, section.resume {
 	height: 100%;
-	margin-bottom: 20vh;
 	width: 100%;
 	max-width: 1000px;
 	margin: 15vh auto 0;
@@ -83,7 +82,7 @@ div.about-me h1 {
     padding: 5px 2px 15px;
     border-bottom: 2px solid #e6e6e6;
 }
-div.about-me h2, section.resume h2 {
+div.about-me h2 {
 	padding-top: 15px;
 	color: #FFFFFF;
     font-family: 'Exo';
@@ -110,11 +109,21 @@ div.social-media li {
 div.social-media li img {
 	width: 50px;
 }
-section.resume ul.experience {
-	list-style-type: disc;
-	padding: 20px;
+section.resume div {
+	margin-bottom: 20px;
+	border-bottom: 2px dashed #e6e6e6;
+	padding-bottom: 20px;
 }
-section.resume ul.experience li {
+section.resume div:last-of-type {
+	margin-bottom: 20px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+section.resume ul {
+	list-style-type: disc;
+	padding: 10px 20px 0 ;
+}
+section.resume ul li {
 	color: ghostwhite;
 }
 section.resume h2 {
@@ -122,20 +131,33 @@ section.resume h2 {
 	font-family: 'Open Sans';
     position: relative;
     letter-spacing: 0.35rem;
-    font-size: 3.125em;
+    font-size: 2.625em;
     line-height: 1.175;
     font-weight: 800;
     padding: 5px 2px 15px;
     text-align: center;
+    border-bottom: 2px dashed #e6e6e6;
+    margin-bottom: 15px;
+
 }
 section.resume h3 {
+	color: ghostwhite;
+	font-family: 'Open Sans';
+    position: relative;
+    letter-spacing: 0.35rem;
+    font-size: 2.125em;
+    line-height: 1.175;
+    font-weight: 800;
+    padding: 5px 2px 15px;
+}
+section.resume h4 {
 	font-family: 'Exo';
 	font-size: 16px;
 	color: ghostwhite;
 	margin-bottom: 10px;
 	font-weight: 700;
 }
-section.resume h4 {
+section.resume h5 {
 	font-family: 'Exo';
 	font-size: 16px;
 	color: ghostwhite;
@@ -146,6 +168,29 @@ section.resume h4 {
 section.resume .experience-item {
 	margin-bottom: 10px;
 }
+section.resume .experience-item:last-child {
+	margin-bottom: 0;
+}
+
+section.resume ul.skills {
+	list-style-type: disc;
+	list-style-position: inside;
+	-webkit-columns: 300px 3;
+    -moz-columns: 300px 3;
+    columns: 300px 3;
+}
+section.resume ul.skills li {
+	font-family: 'Exo';
+	font-size: 16px;
+	color: ghostwhite;
+	margin-bottom: 10px;
+	font-weight: 700;
+	clear: left;
+}
+section.resume ul.skills li:last-child {
+	margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px){
 	div.social-media li {
 		display: block;
