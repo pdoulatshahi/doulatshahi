@@ -2,74 +2,87 @@
 <html>
 <head>
 	<title>Paul Doulatshahi</title>
-	<link href="reset.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700|Exo:400,500,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<header>
+
+	<header class="top-header">
 		<ul class="nav-links">
-			<li><a href="">About</a></li>
-			<li><a href="">Resume</a></li>
-			<li><a href="">Portfolio</a></li>
-			<li><a href="">Contact</a></li>
+			<li class="nav-list-item"><a class="nav-link" href="">About</a></li>
+			<li class="nav-list-item"><a class="nav-link" href="">Resume</a></li>
+			<li class="nav-list-item"><a class="nav-link" href="">Contact</a></li>
 		</ul>
 	</header>
-	<section class="about">
+
+	<section class="about site-section">
 		<div class="about-me">
-			<h1>Paul Doulatshahi</h1>
-			<h2>Full stack developer with an empathetic approach and a penchant for languages both spoken and written. Expert communicator and collaborator who brings tremendous energy and a rapidly expanding skill set.</h2>
+			<h1 class="about-heading">Paul Doulatshahi</h1>
+			<h2 class="about-subheading">Full stack developer with an empathetic approach and a penchant for languages both spoken and written. Expert communicator and collaborator who brings tremendous energy and a rapidly expanding skill set.</h2>
 		</div>
 		<div class="social-media">
-			<ul>
-				<li><a href="https://github.com/pdoulatshahi/" target="_blank"><img src="images/github.png" alt="GitHub"></a></li>
-				<li><a href="https://twitter.com/pbdoulat" target="_blank"><img src="images/twitter.png" alt="Twitter"></a></li>
-				<li><a href="https://www.linkedin.com/in/paul-doulatshahi-8378ba86" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+			<ul class="social-media-list">
+
+				<li class="social-list-item"><a href="https://github.com/pdoulatshahi/" target="_blank"><img class="social-media-image" src="images/github.png" alt="GitHub"></a></li>
+
+				<li class="social-list-item"><a href="https://twitter.com/pbdoulat" target="_blank"><img class="social-media-image" src="images/twitter.png" alt="Twitter"></a></li>
+
+				<li class="social-list-item"><a href="https://www.linkedin.com/in/paul-doulatshahi-8378ba86" target="_blank"><img class="social-media-image" src="images/linkedin.png" alt="LinkedIn"></a></li>
 			</ul>
 		</div>
 	</section>
 
-	<section class="resume">
-		<h2>Resume</h2>
+	<section class="resume site-section">
+		<h2 class="section-heading">Resume</h2>
 
-		<div class="experience-section">
+		<div class="resume-section experience-section">
 
-			<h3>Experience</h3>
+			<h3 class="resume-subheading">Experience</h3>
 
 			<ul class="experience">
 				<li class="clearfix experience-item">
-					<h4>CommonLit, Inc.</h4>
-					<h5>Lead Full-Stack Software Engineer</h5>
-					<h5>October 2015 - Present</h5>
+					<h4 class="resume-sub-subheading">CommonLit, Inc.</h4>
+					<h5 class="resume-example">Lead Full-Stack Software Engineer</h5>
+					<h5 class="resume-example">October 2015 - Present</h5>
+					<div class="clearfix experience-example">
+						<div class="experience-example-image-section">
+							<a class="experience-example-link" href="https://www.commonlit.org/texts" target="_blank"><img class="experience-example-image" src="images/commonlit1.png"></a>
+							<h5 class="experience-example-image-subheading">Index/search page built using ElasticSearch</h5>
+						</div>
+						<div class="experience-example-image-section">
+							<a class="experience-example-link" href="https://www.commonlit.org/texts/malala-yousafzai-a-normal-yet-powerful-girl" target="_blank"><img class="experience-example-image" src="images/commonlit2.png"></a>
+							<h5 class="experience-example-image-subheading">Text page built using HTML/CSS/JavaScript</h5>
+						</div>
+					</div>
 				</li>
 
 				<li class="clearfix experience-item">
-					<h4>General Assembly</h4>
-					<h5>Workshop Instructor & Teaching Assistant</h5>
-					<h5>November 2015 - Present</h5>
+					<h4 class="resume-sub-subheading">General Assembly</h4>
+					<h5 class="resume-example">Workshop Instructor & Teaching Assistant</h5>
+					<h5 class="resume-example">November 2015 - Present</h5>
 				</li>
 
 				<li class="clearfix experience-item">
-					<h4>Fluent City</h4>
-					<h5>French Instructor</h5>
-					<h5>March 2014 - February 2016</h5>
+					<h4 class="resume-sub-subheading">Fluent City</h4>
+					<h5 class="resume-example">French Instructor</h5>
+					<h5 class="resume-example">March 2014 - February 2016</h5>
 				</li>
 
 				<li class="clearfix experience-item">
-					<h4>Alliance Fran&#231;aise de Washington</h4>
-					<h5>French Instructor</h5>
-					<h5>July 2015 - September 2015</h5>
+					<h4 class="resume-sub-subheading">Alliance Fran&#231;aise de Washington</h4>
+					<h5 class="resume-example">French Instructor</h5>
+					<h5 class="resume-example">July 2015 - September 2015</h5>
 				</li>
 			</ul>
 		</div>
 
-		<div class="skills-section">
+		<div class="resume-section skills-section">
 
-			<h3>Skills</h3>
+			<h3 class="resume-subheading">Skills</h3>
 
-			<ul class="skills">
+			<ul class="skills-list">
 				<li class="skills-item">HTML5</li>
 				<li class="skills-item">CSS3</li>
 				<li class="skills-item">JavaScript/jQuery</li>
@@ -86,20 +99,20 @@
 		</div>
 
 		<div class="education-section">
-			<h3>Education</h3>
+			<h3 class="resume-subheading">Education</h3>
 
 			<ul class="education">
 
 				<li class="clearfix experience-item">
-					<h4>General Assembly</h4>
-					<h5>Web Development Immersive</h5>
-					<h5>June 2015 - September 2015</h5>
+					<h4 class="resume-sub-subheading">General Assembly</h4>
+					<h5 class="resume-example">Web Development Immersive</h5>
+					<h5 class="resume-example">June 2015 - September 2015</h5>
 				</li>
 
 				<li class="clearfix education-item">
-					<h4>Georgetown University</h4>
-					<h5>McDonough School of Business</h5>
-					<h5>August 2004 - May 2008</h5>
+					<h4 class="resume-sub-subheading">Georgetown University</h4>
+					<h5 class="resume-example">McDonough School of Business</h5>
+					<h5 class="resume-example">August 2004 - May 2008</h5>
 				</li>
 
 			</ul>
@@ -108,11 +121,20 @@
 
 	</section>
 
-	<section>
-		Sample section
+	<section class="contact site-section">
+
+		<h2 class="section-heading">Contact</h2>
+
+		<p class="contact-copy">Contact Form Coming Soon!</h3>
+
+		<p class="contact-copy">In the meantime, you can reach me at <a class="contact-link" href="mailto:paul.doulatshahi@gmail.com">paul.doulatshahi@gmail.com</a></p>
 	</section>
+
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
