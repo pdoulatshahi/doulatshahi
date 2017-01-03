@@ -92,6 +92,7 @@ h3 {
 	max-width: 1000px;
 	margin: 5vh auto;
 	padding: 0 10px;
+	overflow: auto;
 }
 
 .about-me {
@@ -157,10 +158,9 @@ h3 {
 	font-weight: bold;
 }
 .portfolio-item {
-	margin: 30px 0 0;
+	padding: 25px 0;
 }
 .portfolio-image-wrapper {
-	float: left;
 	width: 35%;
 	padding-right: 15px;
 }
@@ -168,9 +168,26 @@ h3 {
 	width: 100%;
 }
 .portfolio-description {
-	float: left;
 	width: 65%;
 }
+.portfolio-item:nth-child(odd) .portfolio-image-wrapper,
+.portfolio-item:nth-child(odd) .portfolio-description {
+	float: left;
+}
+.portfolio-item:nth-child(odd) .portfolio-image-wrapper {
+	padding-right: 15px;
+}
+.portfolio-item:nth-child(even) .portfolio-image-wrapper,
+.portfolio-item:nth-child(even) .portfolio-description {
+	float: right;
+}
+.portfolio-item:nth-child(even) .portfolio-image-wrapper {
+	padding-left: 15px;
+}
+.portfolio-item li {
+	font-size: 1.1em;
+}
+
 .portfolio-description a {
 	color: ghostwhite;
 }
