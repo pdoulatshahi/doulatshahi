@@ -23,6 +23,7 @@ ul {
 }
 li {
 	padding: 5px 0;
+	font-size: 1.3em;
 }
 h1 {
 	font-size: 3.5em;
@@ -152,20 +153,15 @@ h3 {
   border-bottom: 2px dashed #e6e6e6;
   margin-bottom: 15px;
 }
-
-.skills-list {
-	list-style-type: disc;
-	list-style-position: inside;
-}
 .skills-bold {
 	font-weight: bold;
 }
 .portfolio-item {
-	margin: 20px 0 0;
+	margin: 30px 0 0;
 }
 .portfolio-image-wrapper {
 	float: left;
-	width: 30%;
+	width: 35%;
 	padding-right: 15px;
 }
 .portfolio-image-wrapper img {
@@ -173,8 +169,21 @@ h3 {
 }
 .portfolio-description {
 	float: left;
-	width: 70%;
+	width: 65%;
 }
 .portfolio-description a {
 	color: ghostwhite;
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	.portfolio-image-wrapper,
+	.portfolio-description {
+		width: 100%;
+	}
+	.portfolio-image-wrapper {
+		padding-right: 0;
+		padding-bottom: 10px;
+	}
 }
