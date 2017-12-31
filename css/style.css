@@ -61,6 +61,10 @@ h3 {
 	min-height: 100%;
 	overflow-y: scroll;
 }
+.page-content-inside {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .top-header {
 	z-index: 10000;
 }
@@ -89,8 +93,7 @@ h3 {
 .site-section {
 	height: 100%;
 	width: 100%;
-	max-width: 1000px;
-	margin: 5vh auto;
+	margin: 5vh 0;
 	padding: 0 10px;
 	overflow: auto;
 }
@@ -116,7 +119,7 @@ h3 {
 	margin-top: 20px;
 }
 .social-media-list {
-	padding-left: 0;
+	padding: 10px 0 0;
 	margin-left: 0;
 	text-align: center;
 	list-style-type: none;
