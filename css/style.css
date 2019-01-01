@@ -57,7 +57,6 @@ h3 {
 	width: 100%;
 }
 .page-content {
-	background: rgba(0,0,0,0.5);
 	min-height: 100%;
 	overflow-y: scroll;
 }
@@ -160,50 +159,8 @@ h3 {
 .skills-bold {
 	font-weight: bold;
 }
-.portfolio-item {
-	padding: 25px 0;
-}
-.portfolio-image-wrapper {
-	width: 35%;
-	padding-right: 15px;
-}
-.portfolio-image-wrapper img {
-	width: 100%;
-}
-.portfolio-description {
-	width: 65%;
-}
-.portfolio-item:nth-child(odd) .portfolio-image-wrapper,
-.portfolio-item:nth-child(odd) .portfolio-description {
-	float: left;
-}
-.portfolio-item:nth-child(odd) .portfolio-image-wrapper {
-	padding-right: 15px;
-}
-.portfolio-item:nth-child(even) .portfolio-image-wrapper,
-.portfolio-item:nth-child(even) .portfolio-description {
-	float: right;
-}
-.portfolio-item:nth-child(even) .portfolio-image-wrapper {
-	padding-left: 15px;
-}
-.portfolio-item li {
-	font-size: 1.1em;
-}
-
-.portfolio-description a {
-	color: ghostwhite;
-}
 @media (max-width: 768px) {
 	body {
 		font-size: 14px;
-	}
-	.portfolio-image-wrapper,
-	.portfolio-description {
-		width: 100%;
-	}
-	.portfolio-image-wrapper {
-		padding-right: 0;
-		padding-bottom: 10px;
 	}
 }
